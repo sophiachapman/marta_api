@@ -100,6 +100,9 @@ GEM
     geocoder (1.5.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    httparty (0.17.0)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
@@ -125,6 +128,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     msgpack (1.2.10-x86-mingw32)
+    multi_xml (0.6.0)
     nio4r (2.3.1)
     nokogiri (1.10.3-x86-mingw32)
       mini_portile2 (~> 2.4.0)
@@ -240,6 +244,7 @@ DEPENDENCIES
   duktape
   font-awesome-rails
   geocoder
+  httparty
   jbuilder (~> 2.5)
   jquery-rails
   paperclip

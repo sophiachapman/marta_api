@@ -66,3 +66,4 @@ gem 'jquery-rails'
 gem 'font-awesome-rails'
 
 gem 'geocoder'
+gem 'httparty'
