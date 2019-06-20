@@ -58,7 +58,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #tts project
 gem 'devise'
-
 gem 'carrierwave'
 gem 'paperclip'
 gem 'bootstrap-sass'
@@ -67,3 +66,5 @@ gem 'font-awesome-rails'
 
 gem 'geocoder'
 gem 'httparty'
+
+gem 'figaro'

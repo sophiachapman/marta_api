@@ -11,5 +11,18 @@
 
   <body>
     <%= yield %>
+
+      <!-- yeah, there's a bunch of stuff up here
+    but none of that changed! 
+
+    Note that loading the script in the body may cause an error google not defined
+    if this occurs load script in head  -->
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <script type="text/javascript" 
+    src="https://maps.googleapis.com/maps/api/js?key=<%= Figaro.env.google_api_key %>">
+    </script>
   </body>
 </html>
